@@ -13,8 +13,7 @@
                         value="<%=product.name%>">
 
                     <label for="quantity">Quantity</label>
-                    <input type="number" id="quantity" name="quantity" placeholder="Quantity"
-                        value="<%= product.quantity %>">
+                    <input type="number" id="quantity" name="quantity" value="<%= product.quantity %>">
 
                     <label for="category">Select Category</label>
                     <select name="category" required id="category">
@@ -33,7 +32,7 @@
                     <button>Submit</button>
                 </form>
 
-                <a href="/products/">Cancel</a>
+                <a href="/products/" class="btn btn-success">Cancel</a>
             </div>
     </body>
 
